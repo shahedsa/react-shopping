@@ -21,12 +21,4 @@
 main{
   grid-area: main;
 }
-footer{
-  grid-area:footer;
-  background-color:brown;
-  color:white;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  font-size:20px;
-}
+
