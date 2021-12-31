@@ -1,10 +1,11 @@
 import React from 'react';
 import "../../css/Footer/Footer.css";
+import { staticdata } from "../../staticdata"
 
 function Footer() {
     return (
         <footer>
-            &copy; Copyright (c) shahed 2021
+            {staticdata.footerTitle}
         </footer>
     )
 }
